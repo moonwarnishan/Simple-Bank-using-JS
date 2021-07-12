@@ -1,0 +1,20 @@
+.login-area{
+    height: 300px;
+    width: 500px;
+    box-shadow: 3px 3px 3px rgb(245, 223, 223);
+}
+.row h1::before{
+    content: "$";
+}
+.mar{
+    margin: auto;
+}
+
+.sha
+{
+    box-shadow: 3px 3px 3px 3px gainsboro;
+}
+.bal
+{
+    display:none;
+}
