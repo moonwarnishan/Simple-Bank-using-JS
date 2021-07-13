@@ -11,7 +11,7 @@ function dep()
     if(depamount>0){
         document.getElementById('balance').innerHTML=parseFloat(document.getElementById('balance').innerHTML)+depamount;
         document.getElementById('deposit').innerText=parseFloat(document.getElementById('deposit').innerText)+depamount;        
-        document.getElementById('depamount').value="$ Enter amount to deposit";
+        document.getElementById('depamount').reset();
     }
     else
     {
@@ -26,7 +26,7 @@ function wit()
     {
         document.getElementById('balance').innerHTML=parseFloat(document.getElementById('balance').innerHTML)-parseFloat(document.getElementById('withamount').value);
         document.getElementById('withdraw').innerText=parseFloat(document.getElementById('withdraw').innerText)+parseFloat(document.getElementById('withamount').value);
-        document.getElementById('withamount').value="$ Enter amount to withdraw";
+        document.getElementById('withamount').reset();
     }
     else
     {
